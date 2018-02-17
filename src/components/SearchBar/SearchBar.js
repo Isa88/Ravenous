@@ -2,9 +2,9 @@ import React from 'react';
 import './SearchBar.css';
 
 let sortByOptions = {
-  Best Match: 'best_match',
-  Highest Rated: 'rating',
-  Most Reviewed: 'review_count'
+  BestMatch: 'best_match',
+  HighestRated: 'rating',
+  MostReviewed: 'review_count'
 }
 
 class SearchBar extends React.Component {
@@ -28,7 +28,7 @@ class SearchBar extends React.Component {
       </div>
       <div className="SearchBar-submit">
         <a>Let s Go</a>
-        <!-- jai enlevé lappostrophe avant le s parce que bug -->
+        // jai enlevé lappostrophe avant le s parce que bug
       </div>
       </div>
     );
