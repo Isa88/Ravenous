@@ -4,13 +4,15 @@ import Business from '../Business';
 
 class BusinessList extends React.Component {
   render() {
-    <div class="BusinessList">
-      <!-- Add Business Component here -->
-      <!-- Add Business Component here -->
-      <!-- Add Business Component here -->
-      <!-- Add Business Component here -->
-      <!-- Add Business Component here -->
-      <!-- Add Business Component here -->
+    <div className="BusinessList">
+      <Business />
+      <Business />
+      <Business />
+      <Business />
+      <Business />
+      <Business />
     </div>
   }
 }
+
+export default BusinessList;

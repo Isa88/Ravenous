@@ -27,7 +27,7 @@ class Business extends React.Component{
       <p>business.zipCode</p>
     </div>
     <div className="Business-reviews">
-      <h3 text-transform="uppercase">{business.category}</h3>
+      <h3>{business.category.toUpperCase()}</h3>
       <h3 className="rating">{business.rating}</h3>
       <p>{business.reviewCount} reviews</p>
     </div>
